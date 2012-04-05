@@ -203,7 +203,13 @@ h3#fortuneH3 {
 .titleList{
 	background-image: url(../images/Box.png);
 	background-repeat: no-repeat;
+	padding-left: 10%;
 }
+
+.contentList{
+list-style-type: none;
+}
+
 .postTop {
 	position: absolute;
 	left: 0;
