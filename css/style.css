@@ -628,7 +628,7 @@ a:hover .newer_entries img {
 	margin: 0 auto;
 }
 
-#home_inner a {
+#goHome {
 	width: 113px;
 	height: 31px;
 	background: none;
@@ -639,7 +639,7 @@ a:hover .newer_entries img {
 	margin-top: 7px;
 }
 
-#home_inner a:hover {
+#goHome:hover {
 	background-image: url(../images/go-home-on.gif);
 }
 
