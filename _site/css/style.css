@@ -200,6 +200,10 @@ h3#fortuneH3 {
 	position: relative;
 }
 
+.titleList{
+	background-image: url(../images/Box.png);
+	background-repeat: no-repeat;
+}
 .postTop {
 	position: absolute;
 	left: 0;
