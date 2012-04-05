@@ -211,6 +211,10 @@ h3#fortuneH3 {
 	
 }
 
+#myImg{
+	background-image: url(../images/debolina.jpg);
+}
+
 .contentList{
 list-style-type: none;
 }
