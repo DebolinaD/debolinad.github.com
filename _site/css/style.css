@@ -214,6 +214,9 @@ h3#fortuneH3 {
 
 .contributor{
 	background-image: url(../images/debolina.jpg);
+	background-position: left center;
+    background-repeat: no-repeat;
+    height: 200px;
 }
 
 .contentList{
