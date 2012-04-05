@@ -1,0 +1,44 @@
+---
+layout: default
+title: About Me
+heading: About Me
+---
+
+
+<div id="" class="post">
+				<div id="" class="postTop">
+				</div>
+				<div id="" class="postContent">
+					<ul class="contentList">				
+					{% for post in site.posts limit: 5  %}
+					<li class="titleList">	
+						<h2>
+							<a title="{{ post.title }}" target="_self" href="{{ post.url }}">{{ post.title }}</a>
+						</h2>
+						
+						<div class="entry">
+							<p><span>{{ post.date | date_to_string }}</span></p>		
+							<p>{{ post.excerpt }}</p>	
+							<!--<p>{{post.content| before_fold}}</p>-->
+							<p>
+								<a href="{{ post.url }}">Read More</a>					
+								
+							</p>	
+						</div>
+					</li>
+					{% endfor %} 
+					</ul>
+					<div class="postFooter">
+						<div class="hrDash"></div>
+						<p>
+							<!--<a href="{{ post.url }}">Read More</a>-->
+							<!--<a href="#">Leave a response</a>-->
+							
+						</p>
+					</div>
+				</div>
+				<div id="" class="postBottom">
+				</div>
+			</div>
+			
+
