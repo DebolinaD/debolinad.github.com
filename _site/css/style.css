@@ -381,6 +381,9 @@ list-style-type: none;
 	float: left;
 }
 
+.defaultCubeImg {
+background-image: url(./images/debolina.jpg);
+}
 /***********************
 /* Single.php Next Previous Navigation	*
 /**********************/
