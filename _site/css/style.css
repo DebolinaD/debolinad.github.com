@@ -96,7 +96,7 @@ ul {
 h1#identity {
 	width: 632px;
 	height: 62px;
-	background-image: url(../images/Header_grey.png);
+	background-image: url(../images/fortune-cookies.jpg);
 	background-repeat: no-repeat;
 	margin-bottom: 2.16em;
 	position: relative;
@@ -204,7 +204,7 @@ h3#fortuneH3 {
 	background-image: url(../images/batch.png);
 	background-repeat: no-repeat;
 	padding-left: 10%;
-	padding-top: 1%;
+	
 }
 
 .contentList{
