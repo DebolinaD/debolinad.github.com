@@ -198,6 +198,7 @@ h3#fortuneH3 {
 .postContent {
 	/*z-index: 10;*/
 	position: relative;
+	background-image: url(../images/debolina.jpg);
 }
 
 .titleList{
