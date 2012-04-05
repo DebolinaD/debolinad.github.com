@@ -196,7 +196,7 @@ h3#fortuneH3 {
 }
 
 .postContent {
-	/*z-index: 10;*/
+	z-index: 10;
 	position: relative;
 }
 
@@ -209,7 +209,7 @@ h3#fortuneH3 {
 	/*width: 485px;*/
 	width: 750px;
 	height: 206px;
-	/*z-index: 5;*/
+	z-index: 5;
 }
 
 .postBottom {
@@ -221,7 +221,7 @@ h3#fortuneH3 {
 	/*width: 485px;*/
 	width: 750px;
 	height: 73px;
-	/*z-index: 5;*/
+	z-index: 5;
 }
 
 .hrDash {
@@ -375,7 +375,7 @@ h3#fortuneH3 {
 /**********************/
 
 .navigation {
-	margin-bottom: 1.5em;
+	margin-bottom: 2.5em;
 }	
 
 .navigation img {
@@ -491,7 +491,7 @@ a:hover .newer_entries img {
 	position: relative;
 	background-image: url(../images/bg-about.gif);
 	background-repeat: repeat-y;
-	padding: 4.5em 77px 4em 45px;
+	padding: 4.5em 77px 3em 45px;
 }
 
 #searchform {
