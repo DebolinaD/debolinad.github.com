@@ -415,9 +415,17 @@ needs to pullout the one at the top.
 						<a title="#" target="_blank" href="#">People I mEEt</a>,
 						<a title="#" target="_blank" href="#">Books I reaD</a> and
 						
-						<a target="_self" href="/about-this-blog/">More</a>
-						...
-						</p>
+						<div id="cse" style="width: 100%;">Loading</div>
+						<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+						<script type="text/javascript"> 
+						  google.load('search', '1', {language : 'en', style : google.loader.themes.SHINY});
+						  google.setOnLoadCallback(function() {
+							var customSearchOptions = {};  var customSearchControl = new google.search.CustomSearchControl(
+							  '006957291580376802508:_vqahvsouzw', customSearchOptions);
+							customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+							customSearchControl.draw('cse');
+						  }, true);
+						</script>
 						<!--<form id="searchform" action="http://blog.makefive.com/" method="get">
 						<div>
 						<input id="s" type="text" size="15" name="s" value="">
