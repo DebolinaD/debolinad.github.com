@@ -5,6 +5,21 @@ excerpt: A Full stack developer - a developer who can create a non trivial appli
 tags:
   - A Full stack developer
 ---
+<h2>
+						<a title="{{ post.title }}" target="_self" href="{{ post.url }}">{{ post.title }}</a>
+					</h2>
+					
+					<div class="entry">
+						<p>
+						<span class="date" title="{{ post.date | date_to_xmlschema }}">
+						<span class="published">Published: </span>
+						<span class="day">{{ post.date | date: '%d' }}</span>
+						<span class="month">
+						  <abbr>{{ post.date | date: '%b' }}</abbr>
+						</span>
+						<span class="year">{{ post.date | date: '%Y' }}</span>
+					  </span>
+						</p>
   <p>Am sure the name &#8220;Full stack developer&#8221; surprises you.</p>
 
   <p>I heard about it may be a day back and was amazed. I mean is it not against what we have been convinced throughout our life. Learn one thing, specialize and do the same repetitive things.</p>
