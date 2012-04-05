@@ -201,9 +201,10 @@ h3#fortuneH3 {
 }
 
 .titleList{
-	background-image: url(../images/Box.png);
+	background-image: url(../images/batch.png);
 	background-repeat: no-repeat;
 	padding-left: 10%;
+	padding-top: 1%;
 }
 
 .contentList{
