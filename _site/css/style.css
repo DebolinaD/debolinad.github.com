@@ -100,8 +100,8 @@ h1#identity {
 	background-repeat: no-repeat;
 	margin-bottom: 2.16em;
 	position: relative;
-	/*left: -25px;*/
-	left:10%;
+	/*left: -25px;
+	left:10%;*/
 }
 
 h1#identity a {
